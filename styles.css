@@ -1,0 +1,83 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background: #f4f4f4;
+}
+
+header nav a {
+    margin: 0 1rem;
+    text-decoration: none;
+    color: #333;
+}
+
+.hero {
+    text-align: center;
+    padding: 2rem;
+    background: #e2e2e2;
+}
+
+.features, .gallery {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+    padding: 2rem;
+    background: #f9f9f9;
+}
+
+.feature-box, .gallery-item {
+    padding: 1rem;
+    background: #ddd;
+    text-align: center;
+}
+
+.about {
+    display: flex;
+    padding: 2rem;
+    background: #e2e2e2;
+}
+
+.about-image, .about-text {
+    flex: 1;
+    margin: 0.5rem;
+    padding: 1rem;
+    background: #ccc;
+    text-align: center;
+}
+
+.testimonials {
+    padding: 2rem;
+    text-align: center;
+    background: #f4f4f4;
+}
+
+.contact {
+    padding: 2rem;
+    text-align: center;
+    background: #e2e2e2;
+}
+
+.contact form {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background: #f4f4f4;
+}
